@@ -8,8 +8,7 @@ namespace LAB4_zad3
 {
     internal class SamochodOsobowy : Pojazd, ISilnikowa
     {
-      
-
+        public int Nazwa { get; set; }
         public string Marka { get; set; }
         public string Model { get; set; }
         public string NrRej { get; set; }
